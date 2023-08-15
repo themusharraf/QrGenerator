@@ -3,7 +3,7 @@ import pyqrcode as qr
 from aiogram import Bot, Dispatcher, types, executor
 from dotenv import load_dotenv
 load_dotenv()
-token = os.getenv('TOKEN') # token
+token = os.getenv('TOKEN') # token .env file get
 import png
 bot = Bot(token=token)
 dp = Dispatcher(bot)
