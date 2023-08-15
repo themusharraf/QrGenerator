@@ -15,7 +15,7 @@ async def start_send(msg: types.Message):
 
 @dp.message_handler()
 async def send_qr(msg: types.Message):
-    await msg.answer("Tayyorlanmoqda. 👽")
+    await msg.answer("Tayyorlanmoqda 👽")
     qrr = qr.create(msg.text)
     qrr.png('qrcreator.png', scale=6)
 
