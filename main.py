@@ -8,7 +8,7 @@ import png
 bot = Bot(token=token)
 dp = Dispatcher(bot)
 
-# pip install -r requirements.txt
+# pip install all packages
 
 @dp.message_handler(commands=['start'])
 async def start_send(msg: types.Message):
